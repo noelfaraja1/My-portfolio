@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+}
+
+body {
+    font-size: 18px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    background-color: rgb(17 17 84);
+    box-shadow: 1px 1px 4px rgba(0 0 0 / 40%), -1px -1px 4px rgba(0 0 0 / 40%);
+    padding: 10px;
+}
+
+.brand-name {
+    font-size: 1.8rem;
+    font-family: cursive;
+    font-weight: 100;
+    color: white;
+}
+
+.main {
+    padding: 10px;
+}
+
+.container {
+    margin-block: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 4px rgba(0 0 0 / 40%), -1px -1px 4px rgba(0 0 0 / 40%);
+}
+
+.about-section {
+    box-shadow: none;
+    margin-top: 2px;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-direction: row !important;
+}
+
+.my-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.img {
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-title {
+    font-size: 1.8rem;
+    font-family: cursive;
+    margin-block: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-family: cursive;
+    margin-block: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph {
+    font-size: 21px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #202027;
+    color: #fff;
+    padding: 10px 20px;
+    margin-block: 5px;
+    margin-top: 15px;
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+a {
+    font-size: 24px;
+    color: white;
+}
+
+
+.active {
+    color: cyan;
+    text-decoration: none;
+}
+
+.technologies,
+.project,
+.education,
+.mision,
+.contact,
+.experience {
+    background-color: rgb(203 203 230);
+}
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list {
+    border: groove;
+    padding: 5px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    margin: 10px;
+}
+
+.copyright {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer {
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(17 17 84);
+    padding: 20px;
+    color: #ffffffe6;
+}
+
+/* PROJECTS */
+
+.hr-title {
+    width: 194px;
+    height: 3px;
+    margin: auto;
+    margin-block: 2px;
+    background-color: #202027;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 40px;
+    padding: 6px 12px;
+    box-shadow: 1px 1px 4px rgba(0 0 0 / 40%), -1px -1px 4px rgba(0 0 0 / 40%);
+}
+
+.btn-project {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+/* CONTACT FORM */
+
+.input {
+    width: 100%;
+    height: 26px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.label {
+    margin-block: 5px;
+}
+
+.btn-send {
+    width: 90%;
+    margin-left: 13px;
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile SCREEN */
+@media screen and (max-width: 405px) {
+    .img {
+        width: 300px !important;
+    }
+
+    .show-case {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-list {
+        margin-inline: 2px;
+    }
+
+    .about-section {
+        box-shadow: none;
+        margin-top: 2px;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+
+    .right {
+        margin-top: 9px;
+    }
+
+}
+
+
+/* Tablet SCREEN */
+@media screen and (max-width: 768px) {
+    .my-img {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .img {
+        width: 380px;
+    }
+
+}
